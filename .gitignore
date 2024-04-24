@@ -16,3 +16,9 @@ src/Prj.o
 apps/reprlearn/reprlearnmain.o
 apps/reprlearn/reprlearnmain
 learn.cij.l2.bin
+predict.tract.l2.log
+predict.teact.l0.log
+predict.teact.l1.log
+predict.teact.l2.log
+predict.tract.l0.log
+predict.tract.l1.log

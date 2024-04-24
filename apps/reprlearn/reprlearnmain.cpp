@@ -266,7 +266,7 @@ void learn_clfs() {
     /* Learn linear classifier from representations */
     if (isroot() and verbosity) { printf("\nClassifier learning "); fflush(stdout); }
     gettimeofday(&start_time, 0);
-    printf("\ncheck 1");
+    //printf("\ncheck 1");
     for (int epoch=0; epoch<nsupepoch; epoch++ ) {
         for (int p=0; p<ntrpat; p++) {
             for (int t=0; t<nstep_per_pat; t++) {
@@ -281,7 +281,7 @@ void learn_clfs() {
                     prj->printnow = PRN;
                     prj->REWIRE = false;
                 }
-                printf("\n epoch %d p %d t %d PRN %.2f", epoch, p, t, PRN);
+                //printf("\n epoch %d p %d t %d PRN %.2f", epoch, p, t, PRN);
                 pops[0]->setinput(trimg->getpat(p));
                 for (auto prj : lsgdclf_prjs)
                     prj->settarget(trlbl->getpat(p)); // clamp targets for lsgd learning

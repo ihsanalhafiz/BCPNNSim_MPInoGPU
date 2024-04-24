@@ -29,8 +29,8 @@ nstep_per_pat           3                       # number of steps to run for eac
 nampl                   0.001               	# noise amplitude
 eps			0.0000001               # small value on p-traces
 
-nusupepoch              3                       # number of unsupervised training epochs
-nsupepoch               6                      # number of supervised classifier training epochs
+nusupepoch              5                       # number of unsupervised training epochs
+nsupepoch               25                      # number of supervised classifier training epochs
 
 ntrpat                  1000                    # number of train patterns
 ntepat                  1000                    # number of test patterns
